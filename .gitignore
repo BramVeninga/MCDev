@@ -1,0 +1,20 @@
+# Minecraft server data en configuratiebestanden
+/data/
+*.log
+*.bak
+*.tar.gz
+
+# Docker-bestanden (indien niet nodig)
+Dockerfile
+docker-compose.yml
+
+# Systeem specifieke bestanden
+.DS_Store
+Thumbs.db
+
+# IDE-bestanden (bijv. VSCode, IntelliJ, etc.)
+.vscode/
+.idea/
+
+# Andere bestanden die je niet wilt tracken
+*.swp
